@@ -22,9 +22,6 @@ import SkipToContent from '@theme/SkipToContent';
 import clsx from 'clsx';
 import React from 'react';
 import styles from './styles.module.css';
-import ChainHeader from '@site/src/components/Chain/ChainHeader';
-import ChainFooter from '@site/src/components/Chain/ChainFooter';
-import { ItemH } from '@site/src/css/SharedStyling';
 
 export default function Layout(props) {
   const {
@@ -49,7 +46,6 @@ export default function Layout(props) {
       {/* navbar for website pages */}
       {showNavbar === 'website' && <Header />}
       {/* navbar for chain pages and sub pages */}
-      {showNavbar === 'chain' && <ChainHeader />}
       <div
         id={SkipToContentFallbackId}
         className={clsx(
@@ -64,11 +60,6 @@ export default function Layout(props) {
       </div>
 
       {!noFooter && <Footer />}
-      {showNavbar === 'chain' && (
-        <ItemH background='#e8eff8'>
-          <ChainFooter />
-        </ItemH>
-      )}
     </LayoutProvider>
   );
 }
