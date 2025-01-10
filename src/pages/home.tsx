@@ -357,7 +357,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
         </ChatSection>
 
         {/* PUSH SPACE AND VIDEO SECTION */}
-        <OtherFeaturesSection id='otherfeatures'>
+        {/* <OtherFeaturesSection id='otherfeatures'>
           <Content>
             <OtherFeatures>
               {OthersFeaturesList?.products.map((item) => (
@@ -367,7 +367,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
               ))}
             </OtherFeatures>
           </Content>
-        </OtherFeaturesSection>
+        </OtherFeaturesSection> */}
 
         <TokenomicsSection id='tokenomics'>
           <Content alignSelf='center'>
@@ -505,7 +505,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
         </BlogSection>
 
         {/* BACKED BY SECTION */}
-        <BackedBySection id='investors'>
+        {/* <BackedBySection id='investors'>
           <ItemV
             id='integratePush'
             position='absolute'
@@ -617,7 +617,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
               </NewMarqueeAnimation>
             </MarqueeAnimationContainer>
           </Content>
-        </BackedBySection>
+        </BackedBySection> */}
 
         {/* MEDIA COVERAGE SECTION */}
         <FeaturedInSection id='featured'>
