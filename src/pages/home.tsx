@@ -500,7 +500,7 @@ export default function Home() {
               Your gateway to shiny updates and innovations at Push Protocol.
             </H2>
 
-            <RecentBlogPosts recentPosts={recentPosts} />
+            <RecentBlogPosts />
           </Content>
         </BlogSection>
 
