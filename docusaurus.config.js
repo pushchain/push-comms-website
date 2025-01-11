@@ -54,24 +54,24 @@ const config = {
       './plugins/blog-plugin',
       {
         id: 'blog',
-        path: './blog',
+        path: 'https://github.com/push-protocol/push-website/tree/main/blog',
         routeBasePath: 'blog',
         blogSidebarTitle: 'All posts',
         blogSidebarCount: 'ALL',
         showReadingTime: true,
         readingTime: ({ content, frontMatter, defaultReadingTime }) =>
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
-        feedOptions: {
-          type: 'all',
-          createFeedItems: async (params) => {
-            const { blogPosts, defaultCreateFeedItems, ...rest } = params;
-            return defaultCreateFeedItems({
-              // keep only the 10 most recent blog posts in the feed
-              blogPosts: blogPosts.filter((item, index) => index < 10),
-              ...rest,
-            });
-          },
-        },
+        // feedOptions: {
+        //   type: 'all',
+        //   createFeedItems: async (params) => {
+        //     const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+        //     return defaultCreateFeedItems({
+        //       // keep only the 10 most recent blog posts in the feed
+        //       blogPosts: blogPosts.filter((item, index) => index < 10),
+        //       ...rest,
+        //     });
+        //   },
+        // },
       },
     ],
     require.resolve('./plugins/custom-webpack-plugin'),

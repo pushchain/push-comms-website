@@ -64,7 +64,7 @@ import { OthersFeaturesList } from '@site/src/config/HomeOthersFeaturesList';
 import GLOBALS, { device } from '@site/src/config/globals';
 import { PageMeta } from '@site/src/config/pageMeta';
 
-export default function Home({ homePageBlogMetadata, recentPosts }) {
+export default function Home() {
   // Internationalization
   const { t, i18n } = useTranslation();
 
