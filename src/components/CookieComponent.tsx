@@ -49,7 +49,7 @@ const CookieComponent = () => {
           >
             We use cookies to personalize your experience. Learn more in our{' '}
             <a
-              href='https://push.org/privacy'
+              href='https://comms.push.org/privacy'
               target='_blank'
               style={{ textDecoration: 'underline' }}
             >

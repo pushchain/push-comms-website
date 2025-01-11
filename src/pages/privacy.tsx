@@ -39,7 +39,7 @@ function Privacy() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/privacy' />
+        <meta property='og:url' content='https://comms.push.org/privacy' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Privacy' />
         <meta

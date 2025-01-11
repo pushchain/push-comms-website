@@ -43,7 +43,7 @@ const sidebars = {
         {
           label: 'Build Push Chat',
           type: 'link',
-          href: 'https://push.org/docs/chat',
+          href: 'https://comms.push.org/docs/chat',
         },
       ],
     },
@@ -163,7 +163,7 @@ const sidebars = {
         {
           label: 'Build Push Notfications',
           type: 'link',
-          href: 'https://push.org/docs/notifications',
+          href: 'https://comms.push.org/docs/notifications',
         },
       ],
     },
@@ -234,12 +234,12 @@ const sidebars = {
         {
           label: 'Build Push Notfications',
           type: 'link',
-          href: 'https://push.org/docs/notifications',
+          href: 'https://comms.push.org/docs/notifications',
         },
         {
           label: 'Build Push Chat',
           type: 'link',
-          href: 'https://push.org/docs/chat',
+          href: 'https://comms.push.org/docs/chat',
         },
       ],
     },
@@ -381,12 +381,12 @@ const sidebars = {
         {
           label: 'Push DAO',
           type: 'link',
-          href: 'https://push.org/docs/dao',
+          href: 'https://comms.push.org/docs/dao',
         },
         {
           label: 'Push FAQs',
           type: 'link',
-          href: 'https://push.org/faq',
+          href: 'https://comms.push.org/faq',
         },
       ],
     },
@@ -424,17 +424,17 @@ const sidebars = {
         {
           label: 'Recap 2023',
           type: 'link',
-          href: '/blog/push-roadmap-recap-2023/',
+          href: 'https://push.org/blog/push-roadmap-recap-2023/',
         },
         {
           label: 'Recap 2022',
           type: 'link',
-          href: '/blog/push-2022-year-in-review/',
+          href: 'https://push.org/blog/push-2022-year-in-review/',
         },
         {
           label: 'Recap 2021',
           type: 'link',
-          href: '/blog/our-2021-year-in-review/',
+          href: 'https://push.org/blog/our-2021-year-in-review/',
         },
       ],
     },

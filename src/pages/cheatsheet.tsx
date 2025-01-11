@@ -31,7 +31,7 @@ function CheatSheet() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/cheatsheet' />
+        <meta property='og:url' content='https://comms.push.org/cheatsheet' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Cheatsheet' />
         <meta

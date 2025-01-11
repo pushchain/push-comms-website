@@ -97,7 +97,7 @@ const Spaces = () => {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/spaces' />
+        <meta property='og:url' content='https://comms.push.org/spaces' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Spaces' />
         <meta

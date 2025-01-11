@@ -61,7 +61,7 @@ function FAQ() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/faq' />
+        <meta property='og:url' content='https://comms.push.org/faq' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | FAQ' />
         <meta

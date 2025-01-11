@@ -44,7 +44,7 @@ function TermsOfService() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/tos' />
+        <meta property='og:url' content='https://comms.push.org/tos' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Terms of Service' />
         <meta

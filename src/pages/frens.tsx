@@ -350,7 +350,7 @@ const FrensText = () => {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/frens' />
+        <meta property='og:url' content='https://comms.push.org/frens' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Frens Of Push' />
         <meta

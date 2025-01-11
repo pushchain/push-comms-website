@@ -2,9 +2,8 @@
 // @ts-nocheck
 // React + Web3 Essentials
 import Head from '@docusaurus/Head';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 
 // Internal Components
 // import { BRBAlert } from '@site/src/components/BRB/BRBAlert';
@@ -25,7 +24,7 @@ function Bootcamp() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/bootcamp' />
+        <meta property='og:url' content='https://comms.push.org/bootcamp' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | BOOTCAMP CAMPAIGN' />
         <meta

@@ -470,7 +470,7 @@ export default function Home() {
               {!isMobile && (
                 <ItemH justifyContent='flex-end'>
                   <SlideLink
-                    href={useBaseUrl('/blog')}
+                    href='https://push.org/blog'
                     title='Explore all articles'
                     hoverBackground='transparent'
                     hover='transparent'

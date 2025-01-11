@@ -5,12 +5,12 @@ hide_title: true
 slug: ./eth-tracker-with-showrunners-example
 displayed_sidebar: pushNotificationSidebar
 sidebar_position: 8
-image: "/assets/docs/previews/docs_slider_settings_with_eth_tracker_showrunners_example--notification_settings_in_eth_tracker.png"
+image: '/assets/docs/previews/docs_slider_settings_with_eth_tracker_showrunners_example--notification_settings_in_eth_tracker.png'
 ---
 
 # Slider Notification Settings in Showrunners
 
-This example is intended to get you understand slider based notification settings with a real-world application. For the example we are going to look at a scenario where users can choose a time interval and showrunners framework will notify them as per their request. Checkout [Showrunners Docs](https://push.org/docs/notifications/showrunners-scaffold/get-started/ 'Push Showrunners Docs'), [Showrunners Framework](https://github.com/push-protocol/push-showrunners-framework/tree/main 'Push Showrunners Github'), [Channel Settings Docs](https://push.org/docs/notifications/build/create-channel-settings/ 'Push Channel Settings Docs') and [Channel Settings Demo](https://github.com/push-protocol/push-showrunners-framework/tree/main/src/sample_showrunners/bank 'Channel Settings Example Github') for better understanding!
+This example is intended to get you understand slider based notification settings with a real-world application. For the example we are going to look at a scenario where users can choose a time interval and showrunners framework will notify them as per their request. Checkout [Showrunners Docs](https://comms.push.org/docs/notifications/showrunners-scaffold/get-started/ 'Push Showrunners Docs'), [Showrunners Framework](https://github.com/push-protocol/push-showrunners-framework/tree/main 'Push Showrunners Github'), [Channel Settings Docs](https://comms.push.org/docs/notifications/build/create-channel-settings/ 'Push Channel Settings Docs') and [Channel Settings Demo](https://github.com/push-protocol/push-showrunners-framework/tree/main/src/sample_showrunners/bank 'Channel Settings Example Github') for better understanding!
 
 <head>
   <title>
@@ -31,7 +31,7 @@ We will choose the [Eth Tracker](https://github.com/push-protocol/push-showrunne
 
 ### Step 1: Setup the Showrunners in your local machine
 
-For detailed, step-by-step guide visit the Showrunners [docs](https://push.org/docs/notifications/showrunners-scaffold/get-started/ 'Push Showrunners Docs'). First we need to create a folder in `src/showrunners/<your_channel_name>`
+For detailed, step-by-step guide visit the Showrunners [docs](https://comms.push.org/docs/notifications/showrunners-scaffold/get-started/ 'Push Showrunners Docs'). First we need to create a folder in `src/showrunners/<your_channel_name>`
 
 ### Step 2: Install Dependencies & start up
 
@@ -46,7 +46,7 @@ yarn run dev
 
 ### Step 3: Import the Push SDK
 
-After you have created a channel folder. Refer to Showrunners [docs](https://push.org/docs/notifications/showrunners-scaffold/get-started/ 'Push Showrunners Docs'). Move to the [name]Channel.ts file and import the dependencies.
+After you have created a channel folder. Refer to Showrunners [docs](https://comms.push.org/docs/notifications/showrunners-scaffold/get-started/ 'Push Showrunners Docs'). Move to the [name]Channel.ts file and import the dependencies.
 
 ```jsx
 import { PushAPI } from '@pushprotocol/restapi';
@@ -71,7 +71,7 @@ Let's get to building it.
 
 ### Fetch subscribers data
 
-To fetch a list of all users who have opted into receiving notifications along with their opted value from `userAlice`, you can use the `subscribers` method. You can read about this method in detail [here](https://push.org/docs/notifications/build/manage-channel/#get-channel-subscribers-api 'Channel Settings Docs').
+To fetch a list of all users who have opted into receiving notifications along with their opted value from `userAlice`, you can use the `subscribers` method. You can read about this method in detail [here](https://comms.push.org/docs/notifications/build/manage-channel/#get-channel-subscribers-api 'Channel Settings Docs').
 
 ```jsx
 
@@ -177,7 +177,7 @@ This is the basic logic behind the notification trigger.
 
 ### Build the notification payload
 
-Design your own payload with custom values in the when you want to trigger notifications. To learn more about notification settings, refer to [docs](https://push.org/docs/notifications/build/create-channel-settings/)
+Design your own payload with custom values in the when you want to trigger notifications. To learn more about notification settings, refer to [docs](https://comms.push.org/docs/notifications/build/create-channel-settings/)
 
 ```jsx
 const payload = {

@@ -39,7 +39,10 @@ function PrivacyMobile() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/privacymobile' />
+        <meta
+          property='og:url'
+          content='https://comms.push.org/privacymobile'
+        />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Privacy' />
         <meta

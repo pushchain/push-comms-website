@@ -5,7 +5,7 @@ hide_title: true
 slug: ./send-notification
 displayed_sidebar: pushNotificationSidebar
 sidebar_position: 12
-image: "/assets/docs/previews/docs_notifications_develop--send_notification.png"
+image: '/assets/docs/previews/docs_notifications_develop--send_notification.png'
 ---
 
 # Send notification overview
@@ -138,7 +138,7 @@ const apiResponse: ApiResponse = await userAlice.channel.send(recipients, {
 
 ## Encrypted notification example
 
-Push Protocol supports sending encrypted notifications, which can only be decrypted by the intended recipients. You can send encrypted notifications to targeted/subsets of users. Currently, Push Notification supports two encryption standards: `PGPV1` and `LITV1`. Use `LITV1` to use [Lit Protocol encryption](https://developer.litprotocol.com/v2/resources/glossary#encryption) and `PGPV1` to use [PGP_V1 encryption](https://push.org/docs/chat/concepts/encryption-version-in-push-chat/#pgp_v1).
+Push Protocol supports sending encrypted notifications, which can only be decrypted by the intended recipients. You can send encrypted notifications to targeted/subsets of users. Currently, Push Notification supports two encryption standards: `PGPV1` and `LITV1`. Use `LITV1` to use [Lit Protocol encryption](https://developer.litprotocol.com/v2/resources/glossary#encryption) and `PGPV1` to use [PGP_V1 encryption](https://comms.push.org/docs/chat/concepts/encryption-version-in-push-chat/#pgp_v1).
 
 <Tabs className="codetabs" groupId="code-examples">
   <TabItem value="js" attributes={{className: "codetab js"}} default>
