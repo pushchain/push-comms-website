@@ -134,7 +134,7 @@ const Spaces = () => {
             '@type': 'Organization',
             name: 'Push Protocol',
             description: 'The Communication Protocol of Web3',
-            url: 'https://push.org',
+            url: 'https://comms.push.org',
             logo: '/assets/website/favicon.ico',
             sameAs: [
               'https://twitter.com/pushprotocol',
