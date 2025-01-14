@@ -61,7 +61,7 @@ export async function sendEmailToMailingList({ email }) {
   const details = {
     name: '',
     email: email,
-    list: 'YPwxHS892tH8Nhs13wzKqWbQ',
+    list: '3wXIiKIj5zS2e8763HIWR63A',
     api_key: 'TdzMcZVNTn1mjtAJHBpB',
     boolean: true,
   };
