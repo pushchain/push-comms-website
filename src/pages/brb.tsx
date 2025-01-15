@@ -4,10 +4,9 @@
 import Head from '@docusaurus/Head';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 
 // Internal Components
-import { BRBAlert } from '@site/src/components/BRB/BRBAlert';
 import { BRBMainComponent } from '@site/src/components/BRB/BRBMainComponent';
 
 // Import Assets
@@ -24,7 +23,7 @@ function BRB() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/brb' />
+        <meta property='og:url' content='https://comms.push.org/brb' />
         <meta property='og:type' content='website' />
         <meta
           property='og:title'
@@ -67,7 +66,7 @@ function BRB() {
             '@type': 'Organization',
             name: 'Push Protocol',
             description: 'The Communication Protocol of Web3',
-            url: 'https://push.org',
+            url: 'https://comms.push.org',
             logo: '/assets/website/favicon.ico',
             sameAs: [
               'https://twitter.com/pushprotocol',

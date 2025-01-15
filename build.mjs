@@ -10,7 +10,7 @@ import { getPreviewBasePath } from './basePath.js';
 const envPresets = {
   prod: {
     REACT_APP_DEPLOY_ENV: 'PROD',
-    REACT_APP_PUBLIC_URL: 'https://push.org/',
+    REACT_APP_PUBLIC_URL: 'https://comms.push.org/',
   },
   preview: {
     REACT_APP_DEPLOY_ENV: 'PREVIEW',

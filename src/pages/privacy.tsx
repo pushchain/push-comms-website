@@ -39,7 +39,7 @@ function Privacy() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/privacy' />
+        <meta property='og:url' content='https://comms.push.org/privacy' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Privacy' />
         <meta
@@ -76,7 +76,7 @@ function Privacy() {
             '@type': 'Organization',
             name: 'Push Protocol',
             description: 'The Communication Protocol of Web3',
-            url: 'https://push.org',
+            url: 'https://comms.push.org',
             logo: '/assets/website/favicon.ico',
             sameAs: [
               'https://twitter.com/pushprotocol',
@@ -153,7 +153,7 @@ function Privacy() {
                   may collect, use and/or disclose your personal data. By
                   accessing the website at{' '}
                   <A
-                    href='https://push.org'
+                    href='https://comms.push.org'
                     target='_blank'
                     display=' inline'
                     color='#e1087f'
@@ -162,7 +162,7 @@ function Privacy() {
                     letterSpacing='inherit'
                     textTransform='initial'
                   >
-                    push.org
+                    comms.push.org
                   </A>
                   ,{' '}
                   <A

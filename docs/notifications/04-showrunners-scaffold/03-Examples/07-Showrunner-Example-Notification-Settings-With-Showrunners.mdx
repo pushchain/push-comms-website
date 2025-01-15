@@ -5,12 +5,12 @@ hide_title: true
 slug: ./notification-settings-with-showrunners-example
 displayed_sidebar: pushNotificationSidebar
 sidebar_position: 7
-image: "/assets/docs/previews/docs_notifications_settings_with_showrunners_example--showrunners_x_notification_settings.png"
+image: '/assets/docs/previews/docs_notifications_settings_with_showrunners_example--showrunners_x_notification_settings.png'
 ---
 
 # Trigger Notification Settings in Showrunners
 
-This tutorial is intended to get you up and going by providing a step-by-step tutorial in integrating notification settings in the showrunners framework. Checkout [Showrunners Docs](https://push.org/docs/notifications/showrunners-scaffold/get-started/), [Showrunners Framework](https://github.com/push-protocol/push-showrunners-framework/tree/main), [Channel Settings Docs](https://push.org/docs/notifications/build/create-channel-settings/) and [Channel Settings Demo](https://github.com/push-protocol/push-showrunners-framework/tree/main/src/sample_showrunners/bank) for better understanding!
+This tutorial is intended to get you up and going by providing a step-by-step tutorial in integrating notification settings in the showrunners framework. Checkout [Showrunners Docs](https://comms.push.org/docs/notifications/showrunners-scaffold/get-started/), [Showrunners Framework](https://github.com/push-protocol/push-showrunners-framework/tree/main), [Channel Settings Docs](https://comms.push.org/docs/notifications/build/create-channel-settings/) and [Channel Settings Demo](https://github.com/push-protocol/push-showrunners-framework/tree/main/src/sample_showrunners/bank) for better understanding!
 
 <head>
   <title>
@@ -24,7 +24,7 @@ import TabItem from '@theme/TabItem';
 
 ### Setup the Showrunners in your local machine
 
-For detailed, step-by-step guide visit the Showrunners [docs](https://push.org/docs/notifications/showrunners-scaffold/get-started/). First we need to create a folder in `src/showrunners/<your_channel_name>`
+For detailed, step-by-step guide visit the Showrunners [docs](https://comms.push.org/docs/notifications/showrunners-scaffold/get-started/). First we need to create a folder in `src/showrunners/<your_channel_name>`
 
 ### Install Dependencies & start up
 
@@ -39,7 +39,7 @@ yarn run dev
 
 ### Import the Push SDK
 
-After you have created a channel folder. Refer to Showrunners [docs](https://push.org/docs/notifications/showrunners-scaffold/get-started/). Move to the [name]Channel.ts file and import the dependencies.
+After you have created a channel folder. Refer to Showrunners [docs](https://comms.push.org/docs/notifications/showrunners-scaffold/get-started/). Move to the [name]Channel.ts file and import the dependencies.
 
 ```jsx
 import { CONSTANTS, PushAPI } from '@pushprotocol/restapi';
@@ -70,7 +70,7 @@ async initializeUser() {
 
 ### Build the notification payload
 
-Design your own payload with custom values in the when you want to trigger notifications. To learn more about notification settings, refer to [docs](https://push.org/docs/notifications/build/create-channel-settings/)
+Design your own payload with custom values in the when you want to trigger notifications. To learn more about notification settings, refer to [docs](https://comms.push.org/docs/notifications/build/create-channel-settings/)
 
 ```jsx
 const payload = {

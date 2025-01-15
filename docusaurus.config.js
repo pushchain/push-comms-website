@@ -13,18 +13,18 @@ const config = {
   // Set the production url of your site here
   url: process.env.GITHUB_ACTIONS
     ? `${process.env.REACT_APP_PUBLIC_URL}`
-    : 'https://push.org/',
+    : 'https://comms.push.org/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: process.env.GITHUB_ACTIONS
-    ? `/push-website/pr-preview/${process.env.REACT_APP_PREVIEW_BASE}`
+    ? `/push-comms-website/pr-preview/${process.env.REACT_APP_PREVIEW_BASE}`
     : '/',
   trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'push-protocol', // Usually your GitHub org/user name.
-  projectName: 'push-website', // Usually your repo name.
+  projectName: 'push-comms-website', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -54,28 +54,27 @@ const config = {
       './plugins/blog-plugin',
       {
         id: 'blog',
-        path: './blog',
+        path: 'https://github.com/push-protocol/push-website/tree/main/blog',
         routeBasePath: 'blog',
         blogSidebarTitle: 'All posts',
         blogSidebarCount: 'ALL',
         showReadingTime: true,
         readingTime: ({ content, frontMatter, defaultReadingTime }) =>
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
-        feedOptions: {
-          type: 'all',
-          createFeedItems: async (params) => {
-            const { blogPosts, defaultCreateFeedItems, ...rest } = params;
-            return defaultCreateFeedItems({
-              // keep only the 10 most recent blog posts in the feed
-              blogPosts: blogPosts.filter((item, index) => index < 10),
-              ...rest,
-            });
-          },
-        },
+        // feedOptions: {
+        //   type: 'all',
+        //   createFeedItems: async (params) => {
+        //     const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+        //     return defaultCreateFeedItems({
+        //       // keep only the 10 most recent blog posts in the feed
+        //       blogPosts: blogPosts.filter((item, index) => index < 10),
+        //       ...rest,
+        //     });
+        //   },
+        // },
       },
     ],
     require.resolve('./plugins/custom-webpack-plugin'),
-    require.resolve('./plugins/myPlugin'),
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -129,7 +128,8 @@ const config = {
           sidebarCollapsed: false,
           // Please change this to your repo.
           // Remove this to remove the 'edit this page' links.
-          editUrl: 'https://github.com/push-protocol/push-website/blob/main',
+          editUrl:
+            'https://github.com/push-protocol/push-comms-website/blob/main',
         },
         blog: false,
         theme: {
@@ -196,7 +196,7 @@ const config = {
             position: 'right',
           },
           {
-            to: '/blog',
+            to: 'https://push.org/blog',
             label: 'Blog',
             position: 'right',
           },

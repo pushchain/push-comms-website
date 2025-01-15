@@ -39,7 +39,10 @@ function PrivacyMobile() {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/privacymobile' />
+        <meta
+          property='og:url'
+          content='https://comms.push.org/privacymobile'
+        />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Privacy' />
         <meta
@@ -76,7 +79,7 @@ function PrivacyMobile() {
             '@type': 'Organization',
             name: 'Push Protocol',
             description: 'The Communication Protocol of Web3',
-            url: 'https://push.org',
+            url: 'https://comms.push.org',
             logo: '/assets/website/favicon.ico',
             sameAs: [
               'https://twitter.com/pushprotocol',

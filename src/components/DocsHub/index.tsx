@@ -196,7 +196,7 @@ export default function HomepageFeatures(): JSX.Element {
     >
       <Head>
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org/docs' />
+        <meta property='og:url' content='https://comms.push.org/docs' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push | Documentation Hub' />
         <meta

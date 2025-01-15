@@ -261,7 +261,7 @@ function Header() {
   };
 
   const openChainLink = () => {
-    history.push(baseURL + '/chain');
+    window.open('https://push.org', '_blank');
   };
 
   return (

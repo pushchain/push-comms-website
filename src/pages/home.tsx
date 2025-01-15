@@ -64,7 +64,7 @@ import { OthersFeaturesList } from '@site/src/config/HomeOthersFeaturesList';
 import GLOBALS, { device } from '@site/src/config/globals';
 import { PageMeta } from '@site/src/config/pageMeta';
 
-export default function Home({ homePageBlogMetadata, recentPosts }) {
+export default function Home() {
   // Internationalization
   const { t, i18n } = useTranslation();
 
@@ -96,7 +96,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property='og:url' content='https://push.org' />
+        <meta property='og:url' content='https://comms.push.org' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Push Protocol (Previously EPNS)' />
         <meta
@@ -133,7 +133,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
             '@type': 'Organization',
             name: 'Push Protocol',
             description: 'The Communication Protocol of Web3',
-            url: 'https://push.org',
+            url: 'https://comms.push.org',
             logo: '/assets/website/favicon.ico',
             sameAs: [
               'https://twitter.com/pushprotocol',
@@ -357,7 +357,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
         </ChatSection>
 
         {/* PUSH SPACE AND VIDEO SECTION */}
-        <OtherFeaturesSection id='otherfeatures'>
+        {/* <OtherFeaturesSection id='otherfeatures'>
           <Content>
             <OtherFeatures>
               {OthersFeaturesList?.products.map((item) => (
@@ -367,7 +367,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
               ))}
             </OtherFeatures>
           </Content>
-        </OtherFeaturesSection>
+        </OtherFeaturesSection> */}
 
         <TokenomicsSection id='tokenomics'>
           <Content alignSelf='center'>
@@ -470,7 +470,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
               {!isMobile && (
                 <ItemH justifyContent='flex-end'>
                   <SlideLink
-                    href={useBaseUrl('/blog')}
+                    href='https://push.org/blog'
                     title='Explore all articles'
                     hoverBackground='transparent'
                     hover='transparent'
@@ -500,12 +500,12 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
               Your gateway to shiny updates and innovations at Push Protocol.
             </H2>
 
-            <RecentBlogPosts recentPosts={recentPosts} />
+            <RecentBlogPosts />
           </Content>
         </BlogSection>
 
         {/* BACKED BY SECTION */}
-        <BackedBySection id='investors'>
+        {/* <BackedBySection id='investors'>
           <ItemV
             id='integratePush'
             position='absolute'
@@ -617,7 +617,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
               </NewMarqueeAnimation>
             </MarqueeAnimationContainer>
           </Content>
-        </BackedBySection>
+        </BackedBySection> */}
 
         {/* MEDIA COVERAGE SECTION */}
         <FeaturedInSection id='featured'>
