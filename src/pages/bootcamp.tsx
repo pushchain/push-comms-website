@@ -39,7 +39,7 @@ function Bootcamp() {
         />
         {/* <!-- Twitter Meta Tags --> */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:site' content='@pushprotocol' />
+        <meta name='twitter:site' content='@PushChain' />
         <meta name='twitter:title' content='Push | BOOTCAMP CAMPAIGN' />
         <meta
           name='twitter:description'

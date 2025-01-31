@@ -59,7 +59,7 @@ function PrivacyMobile() {
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:site' content='@pushprotocol' />
+        <meta name='twitter:site' content='@PushChain' />
         <meta name='twitter:title' content='Push | Privacy' />
         <meta
           name='twitter:description'
