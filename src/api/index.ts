@@ -10,6 +10,9 @@ const awaitTimeout = (delay) =>
 
 const BACKEND_API_URL = 'https://api.analytics.epns.io/apis/analytics';
 const ANALYTICS_API_BASE = 'https://backend.epns.io/apis/v1';
+
+const ANALYTICS_API_BASE_V2 = 'https://backend.epns.io/apis/v2';
+
 // const BACKEND_API_URL = 'https://api.analytics.push.org/apis/analytics';
 // const ANALYTICS_API_BASE = 'https://backend.push.org/apis/v1';
 
@@ -151,7 +154,7 @@ export const getNotifications = async ({
 }) => {
   try {
     const res = await axios.get(
-      `${ANALYTICS_API_BASE}/analytics/notification`,
+      `${ANALYTICS_API_BASE_V2}/analytics/notification`,
       {
         params: {
           startDate,
