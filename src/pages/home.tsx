@@ -78,7 +78,7 @@ export default function Home() {
   };
 
   const noNavbar = false;
-  const alertLink = `https://snapshot.box/#/s:pushdao.eth/proposal/0xa4a301c9a346356326d59e425245459d9fbde71b02aabc49a4ce191f0504f66a`;
+  const alertLink = `https://x.com/PushChain`;
 
   return (
     <Layout
@@ -158,7 +158,7 @@ export default function Home() {
             <HeroPrimary flex='initial' justifyContent='flex-start'>
               <HeroItem maxWidth='50%' alignItems='flex-start'>
                 <InfoBar
-                  text='Push Chain proposal has successfully passed.'
+                  text='Push Chain Devnet Drop S2 coming 20 Mar, 2025'
                   url={alertLink}
                 />
 
