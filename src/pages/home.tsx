@@ -78,7 +78,7 @@ export default function Home() {
   };
 
   const noNavbar = false;
-  const alertLink = `https://x.com/PushChain`;
+  const alertLink = `https://portal.push.org/rewards`;
 
   return (
     <Layout
@@ -158,7 +158,7 @@ export default function Home() {
             <HeroPrimary flex='initial' justifyContent='flex-start'>
               <HeroItem maxWidth='50%' alignItems='flex-start'>
                 <InfoBar
-                  text='Push Chain Devnet Drop S2 coming 20 Mar, 2025'
+                  text='Push Chain Devnet Drop S2 is Live!'
                   url={alertLink}
                 />
 
