@@ -219,12 +219,12 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: 'LHUKHXUHQP',
+        appId: '36KRUFN5FG',
 
         // Public API key: it is safe to commit it
-        apiKey: 'f41c253713d3cee20253bd3bfb166cac',
+        apiKey: '702125f317d2d6c1444d1d81f39c2ac8',
 
-        indexName: 'v2-push',
+        indexName: 'comms-docs',
         insights: true,
       },
       colorMode: {
