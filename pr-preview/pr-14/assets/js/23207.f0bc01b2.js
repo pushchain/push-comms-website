@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpush_comms_website=self.webpackChunkpush_comms_website||[]).push([[23207],{23207:(e,i,s)=>{s.d(i,{defineChain:()=>n.x,extractChain:()=>t});var n=s(95809);function t({chains:e,id:i}){return e.find(e=>e.id===i)}},95809:(e,i,s)=>{function n(e){return{formatters:void 0,fees:void 0,serializers:void 0,...e}}s.d(i,{x:()=>n})}}]);
