@@ -37,6 +37,7 @@
     "@docusaurus/preset-classic": "3.0.1",
     "@docusaurus/theme-live-codeblock": "3.0.1",
     "@docusaurus/theme-mermaid": "3.0.1",
+    "@floating-ui/utils": "^0.2.10",
     "@mdx-js/react": "^3.0.0",
     "@pushprotocol/restapi": "1.7.20",
     "@pushprotocol/uiweb": "1.7.1",
@@ -131,5 +132,6 @@
   },
   "engines": {
     "node": ">=18.0"
-  }
+  },
+  "packageManager": "yarn@4.2.2+sha512.c44e283c54e02de9d1da8687025b030078c1b9648d2895a65aab8e64225bfb7becba87e1809fc0b4b6778bbd47a1e2ab6ac647de4c5e383a53a7c17db6c3ff4b"
 }
