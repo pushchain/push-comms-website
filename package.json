@@ -37,6 +37,7 @@
     "@docusaurus/preset-classic": "3.0.1",
     "@docusaurus/theme-live-codeblock": "3.0.1",
     "@docusaurus/theme-mermaid": "3.0.1",
+    "@floating-ui/utils": "^0.2.10",
     "@mdx-js/react": "^3.0.0",
     "@pushprotocol/restapi": "1.7.20",
     "@pushprotocol/uiweb": "1.7.1",
