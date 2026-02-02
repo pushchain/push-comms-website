@@ -95,7 +95,7 @@ export const HeaderList = {
     {
       title: 'header.resources.link1.title',
       subtitle: 'header.resources.link1.subtitle',
-      href: 'https://push.org/blog',
+      href: '/blog',
       target: '_self',
     },
     {

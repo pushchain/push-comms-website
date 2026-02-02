@@ -54,7 +54,7 @@ const config = {
       './plugins/blog-plugin',
       {
         id: 'blog',
-        path: 'https://github.com/push-protocol/push-website/tree/main/blog',
+        path: './blog',
         routeBasePath: 'blog',
         blogSidebarTitle: 'All posts',
         blogSidebarCount: 'ALL',
@@ -196,7 +196,7 @@ const config = {
             position: 'right',
           },
           {
-            to: 'https://push.org/blog',
+            to: '/blog',
             label: 'Blog',
             position: 'right',
           },
